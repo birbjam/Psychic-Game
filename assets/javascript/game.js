@@ -6,6 +6,7 @@ var losses = 0;
 var guesses = 9;
 
 var secretLetter = letters[Math.floor(Math.random() * letters.length)];
+var userLetters = new Array();
 
 console.log(secretLetter)
 
@@ -28,5 +29,6 @@ document.onkeypress = function (event) {
 document.getElementById('wins').innerHTML = "Wins: " + wins;
 document.getElementById('losses').innerHTML = "Losses: " + losses;
 document.getElementById('guessesLeft').innerHTML = "Guesses left: " + guesses;
+document.getElementById('guessesSoFar').innerHTML = "Your guesses so far: " + userGuess;
 
 }
