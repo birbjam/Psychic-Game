@@ -1,17 +1,25 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/pexels-photo-1227648.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-#wrapper {
-  padding: 20px;
-  width: 60%;
-  display: block;
+
+.container {
   margin: 100px auto 100px auto;
-  background-color: #fff;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-  height: auto;
-  position: relative;
-  overflow: auto;
+  padding: 20px;
+  border: 2px black solid;
+  background:rgba(25, 25, 25, .5);
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 70px;
+}
+
+.footer {
+  text-align: center;
 }
